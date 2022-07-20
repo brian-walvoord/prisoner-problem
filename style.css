@@ -1,0 +1,21 @@
+input {
+  margin-top: 10px;
+  width: 90px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+table, tr, th, td {
+  border: solid 1px black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, tr {
+  width: 160px;
+}

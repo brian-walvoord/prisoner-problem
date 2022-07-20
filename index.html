@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Prisoner Problem</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="prisoner.js"></script>
+</head>
+
+<body>
+  <h1>Prisoner Problem</h1>
+  <h4>The 100 prisoners problem is a mathematical problem in probability theory and combinatorics. In this problem, 100 numbered prisoners must find their own numbers in one of 100 drawers in order to survive. The rules state that each prisoner may open only 50 drawers and cannot communicate with other prisoners. At first glance, the situation appears hopeless, but a clever strategy offers the prisoners a realistic chance of survival. Danish computer scientist Peter Bro Miltersen first proposed the problem in 2003. - Wikipedia</h4>
+  <p>Enter an EVEN number of prisoners greater than 0 and the number of times you want to run the simulation</p>
+  <label for="prisonerNum">number of prisoners</label>
+  <input id="prisonerNum" type="number" step="2">
+  <br>
+  <label for="testNum">number of tests</label>
+  <input id="testNum" type="number">
+  <br>
+  <button id="runButton" onclick="assignValues()">Run Tests</button>
+  <button id="resetButton" onclick="document.location.reload()">Reset</button>
+
+  <table>
+    <tr>
+      <th># of prisoners</th>
+      <th># of tests</th>
+      <th>success percentage</th>
+    </tr>
+  </table>
+
+</body>
+
+
+</html>
