@@ -1,3 +1,4 @@
+// creates a randomly mixed array of boxes based on number of prisoners
 function createRandomBoxesArray(num) {
   let boxesArr = [];
   let numberArr = [];
@@ -13,6 +14,7 @@ function createRandomBoxesArray(num) {
   return boxesArr;
 };
 
+// NOT USED function that runs random guesses. Not used because probability of success is 1 in 8,000,000,000,000,000,000,000,000,000,000
 function randomGuesses(times) {
   let resultsArray = [];
   for (let i = 0; i < times; i++) {
@@ -45,7 +47,7 @@ function randomGuesses(times) {
 };
 
 
-
+// uses the loop strategy
 function smartGuesses(prisonerNum, times) {
   let resultsArray = [];
   let openBoxesNum = prisonerNum / 2;
@@ -77,7 +79,7 @@ function smartGuesses(prisonerNum, times) {
 };
 
 
-
+// adds data from smartGuesses to the table on the page
 function printSmartResults(prisonerNum, testNum) {
   let results = smartGuesses(prisonerNum, testNum);
   let successRate = 0;
@@ -99,7 +101,7 @@ function printSmartResults(prisonerNum, testNum) {
 };
 
 
-
+// gets values from user inputs, calls the other functions to run.
 function assignValues() {
   let prisonerNum = document.getElementById('prisonerNum').value;
   let testNum = document.getElementById('testNum').value;
