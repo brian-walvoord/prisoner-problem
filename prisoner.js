@@ -1,3 +1,5 @@
+// testing git by adding a useless comment and pushing it
+
 function createRandomBoxesArray(num) {
   let boxesArr = [];
   let numberArr = [];
