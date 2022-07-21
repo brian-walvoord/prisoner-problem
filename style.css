@@ -1,10 +1,16 @@
+body {
+  background-color: rgb(227, 224, 224);
+  color: rgb(40, 40, 86);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 input {
   margin-top: 10px;
   width: 90px;
 }
 
 button {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 table, tr, th, td {
@@ -18,4 +24,17 @@ table {
 
 th, tr {
   width: 160px;
+}
+
+h1 {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+h4 {
+  width: 650px;
+}
+
+p {
+  width: 650px;
 }
