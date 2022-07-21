@@ -13,8 +13,6 @@ function createRandomBoxesArray(num) {
   return boxesArr;
 };
 
-let test = 0;
-
 function randomGuesses(times) {
   let resultsArray = [];
   for (let i = 0; i < times; i++) {
